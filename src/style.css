@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -5,7 +7,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: midnightblue;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,36 +19,30 @@ body {
   margin: 0;
   display: flex;
   place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 0px;
-  grid-row-gap: 0px;
+.main-grid {
+  @apply grid grid-cols-6 grid-rows-6 gap-4;
 }
 
 .about-me {
-  grid-area: 1 / 1 / 4 / 5;
+  @apply col-span-4 row-span-3 bg-neutral-800;
 }
 
 .events {
-  grid-area: 1 / 5 / 5 / 7;
+  @apply col-span-2 row-span-4 bg-neutral-800;
 }
 
 .contact {
-  grid-area: 5 / 5 / 7 / 7;
+  @apply col-span-2 row-span-2 bg-neutral-800;
 }
 
 .skills {
-  grid-area: 4 / 3 / 7 / 5;
+  @apply col-span-2 row-span-3 bg-neutral-800;
 }
 
 .projects {
-  grid-area: 4 / 1 / 7 / 3;
+  @apply col-span-2 row-span-3 bg-neutral-800;
 }
 
 h1 {
