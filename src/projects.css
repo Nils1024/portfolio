@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+.project-card {
+  @apply bg-neutral-800;
+
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
+.project-card:hover {
+  transform: scale(1.12) translateY(-5px);
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.6);
+  z-index: 10;
+}
+
+.project-card .project-card-label {
+  transform: scale(1.1);
+  letter-spacing: 3px;
+}
+
+.project-card .project-card-subtitle {
+  transform: translateY(3px);
+  opacity: 1;
+}
