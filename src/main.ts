@@ -10,8 +10,8 @@ import git_logo from "/git-logo.svg"
 import SoM_logo from "/SoM-logo.png"
 
 // Contact images
-import github_logo from "/github-logo.svg"
-import mail_symbol from "/mail-symbol.svg"
+import github_logo from "/github-logo.svg?raw"
+import mail_symbol from "/mail-symbol.svg?raw"
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div class="main-grid">
@@ -20,17 +20,17 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     </div>
 
     <div class="events">
-      <a href="https://summer.hackclub.com" target="_blank">
+      <a href="https://summer.hackclub.com" target="_blank" alt="Summer of Making" title="Summer of Making">
         <img src="${SoM_logo}">
       </a>
     </div>
 
     <div class="contact">
-      <a href="https://github.com/Nils1024" target="_blank">
-        <img src="${github_logo}">
+      <a href="https://github.com/Nils1024" target="_blank" alt="GitHub">
+        ${github_logo}
       </a>
-      <a href="mailto:test@email.de">
-        <img src="${mail_symbol}">
+      <a href="mailto:test@email.de" alt="E-Mail">
+        ${mail_symbol}
       </a>
     </div>
 

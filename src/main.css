@@ -51,15 +51,19 @@ body {
 }
 
 .contact {
-  @apply col-span-2 row-span-2 flex-auto;
+  @apply col-span-2 row-span-2 flex items-center gap-4;
 }
 
-.contact img {
-  @apply w-10;
+.contact svg {
+  @apply fill-neutral-900 w-10 h-10;
 }
 
 .skills {
-  @apply col-span-2 row-span-3;
+  @apply col-span-2 row-span-3 flex items-center gap-4;
+}
+
+.skills img {
+  @apply w-10;
 }
 
 .projects {
