@@ -16,8 +16,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+body, html {
+  @apply h-full lg:overflow-hidden;
+}
+
 #app {
-  @apply min-h-screen flex items-center;
+  @apply min-h-screen flex items-center justify-center;
 }
 
 .about-me, .events, .skills, .contact, .projects {
@@ -28,22 +32,24 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 20px;
   text-align: center;
+
+  @apply h-full w-full text-sm sm:text-base lg:text-lg;
 }
 
 .main-grid {
-  @apply mx-auto p-10 flex-1 max-w-5/6;
+  @apply p-4 sm:p-6 md:p-8 lg:p-10;
 }
 
 .main-grid ul {
-  @apply grid grid-cols-5 grid-rows-4 gap-4;
+  @apply w-11/12 h-auto grid gap-4 mx-auto grid-cols-1 grid-rows-none sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-3 lg:grid-cols-5 lg:grid-rows-4 lg:h-[90vh];
 }
 
 .about-me {
-  @apply col-span-3 row-span-3;
+  @apply col-span-1 row-span-1 sm:col-span-2 md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-3;
 }
 
 .events {
-  @apply col-span-1 row-span-4;
+  @apply col-span-1 row-span-1 md:row-span-2 lg:row-span-4;
 }
 
 .events div {
@@ -67,7 +73,7 @@
 }
 
 .skills {
-  @apply col-span-2;
+  @apply col-span-1 sm:col-span-2 md:col-span-2;
 }
 
 .skills div {
@@ -83,5 +89,5 @@
 }
 
 .projects {
-  @apply col-span-1 row-span-4;
+  @apply col-span-1 row-span-1 md:row-span-2 lg:row-span-4;
 }
