@@ -97,5 +97,14 @@ body, html {
 }
 
 .projects {
-  @apply col-span-1 row-span-1 md:row-span-2 lg:row-span-3;
+  @apply col-span-1 row-span-1 md:row-span-2 lg:row-span-3 overflow-y-auto;
+}
+
+.projects::-webkit-scrollbar {
+  width: 6px;
+}
+
+.projects::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
 }
