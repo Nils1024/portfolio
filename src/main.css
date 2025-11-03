@@ -61,7 +61,11 @@ body, html {
 }
 
 .contact div {
-  @apply flex gap-4 duration-200;
+  @apply duration-200 p-4;
+}
+
+.contact-links {
+  @apply flex gap-4 justify-center;
 }
 
 .contact div svg {

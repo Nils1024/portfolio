@@ -74,12 +74,16 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
       <li class="contact">
         <div>
-          <a href="https://github.com/Nils1024" target="_blank" alt="GitHub">
-            ${github_logo_with_gradient}
-          </a>
-          <a href="mailto:test@email.de" alt="E-Mail">
-            ${mail_symbol}
-          </a>
+          <p>Connect with me</p>
+
+          <div class="contact-links">
+            <a href="https://github.com/Nils1024" target="_blank" alt="GitHub">
+              ${github_logo_with_gradient}
+            </a>
+            <a href="mailto:test@email.de" alt="E-Mail">
+              ${mail_symbol}
+            </a>
+          </div>
         </div>
       </li>
 
