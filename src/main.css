@@ -24,7 +24,7 @@ body, html {
   @apply min-h-screen flex items-center justify-center;
 }
 
-.about-me, .events, .skills, .contact, .projects {
+.about-me, .events, .skills, .contact, .projects, .project-count {
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   backdrop-filter: blur(10px);
@@ -92,6 +92,10 @@ body, html {
   @apply scale-105;
 }
 
+.project-count {
+  @apply flex items-center justify-center text-6xl;
+}
+
 .projects {
-  @apply col-span-1 row-span-1 md:row-span-2 lg:row-span-4;
+  @apply col-span-1 row-span-1 md:row-span-2 lg:row-span-3;
 }

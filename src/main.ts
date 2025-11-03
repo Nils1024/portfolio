@@ -32,6 +32,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </div>
       </li>
 
+      <li class="project-count">
+        <div>
+          <p>6+</p>
+        </div>
+      </li>
+
       <li class="projects">
         <div>
           <div class="project-card">
