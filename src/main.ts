@@ -13,7 +13,8 @@ import SoM_logo from "/SoM-logo.png"
 import github_logo from "/github-logo.svg?raw"
 import mail_symbol from "/mail-symbol.svg?raw"
 
-const github_logo_with_gradient = github_logo;
+// Others
+import website_symbol from "/website-symbol.svg?raw"
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
   <div class="main-grid">
@@ -42,19 +43,32 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         <div>
           <div class="project-card">
             <div class="project-card-label">
-              <p>Title</p>
+              <p>ConnTest</p>
             </div>
             <div class="project-card-subtitle">
-              <p>Text</p>
+              <p>A tool for testing network communication</p>
+            </div>
+            <div class="project-card-links">
+              <a href="https://github.com/Nils1024/ConnTest" target="_blank" alt="GitHub">
+                ${github_logo}
+              </a>
             </div>
           </div>
 
           <div class="project-card">
             <div class="project-card-label">
-              <p>Title</p>
+              <p>TrustScanner</p>
             </div>
             <div class="project-card-subtitle">
-              <p>Text</p>
+              <p>Userscript</p>
+            </div>
+            <div class="project-card-links">
+              <a href="https://github.com/Nils1024/TrustScanner" target="_blank" alt="GitHub">
+                ${github_logo}
+              </a>
+              <a href="https://github.com/Nils1024/TrustScanner" target="_blank" alt="Download">
+                ${website_symbol}
+              </a>
             </div>
           </div>
 
@@ -84,7 +98,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
           <div class="contact-links">
             <a href="https://github.com/Nils1024" target="_blank" alt="GitHub">
-              ${github_logo_with_gradient}
+              ${github_logo}
             </a>
             <a href="mailto:test@email.de" alt="E-Mail">
               ${mail_symbol}

@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .project-card {
-  @apply bg-neutral-800 border rounded-2xl duration-500;;
+  @apply bg-neutral-800 border rounded-2xl duration-500;
 
   margin: 10px;
   padding: 20px;
@@ -37,4 +37,16 @@
 .project-card .project-card-subtitle {
   transform: translateY(3px);
   opacity: 1;
+}
+
+.project-card-links {
+  @apply flex justify-center p-1 gap-3;
+}
+
+.project-card-links svg {
+  @apply w-8 h-auto fill-amber-50 duration-200;
+}
+
+.project-card-links svg:hover {
+  @apply w-8 h-auto fill-blue-400;
 }
