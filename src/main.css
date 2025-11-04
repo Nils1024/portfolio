@@ -84,11 +84,11 @@ body, html {
   @apply flex gap-4 duration-200;
 }
 
-.skills div img {
+.skills div svg {
   @apply w-10 h-auto;
 }
 
-.skills div img:hover {
+.skills div svg:hover {
   @apply scale-105;
 }
 

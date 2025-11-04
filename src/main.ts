@@ -2,9 +2,9 @@ import "./main.css"
 import "./projects.css"
 
 // Skills images
-import java_logo from "/java-logo.svg"
-import c_logo from "/C-logo.svg"
-import git_logo from "/git-logo.svg"
+import java_logo from "/java-logo.svg?raw"
+import c_logo from "/C-logo.svg?raw"
+import git_logo from "/git-logo.svg?raw"
 
 // Events images
 import SoM_logo from "/SoM-logo.png"
@@ -111,13 +111,13 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <li class="skills">
         <div>
           <a href="https://www.java.com" target="_blank">
-            <img src="${java_logo}">
+            ${java_logo}
           </a>
           <a href="https://www.c-language.org" target="_blank">
-            <img src="${c_logo}">
+            ${c_logo}
           </a>
           <a href="https://git-scm.com" target="_blank">
-            <img src="${git_logo}">
+            ${git_logo}
           </a>
         </div>
       </li>
