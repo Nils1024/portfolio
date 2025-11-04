@@ -21,7 +21,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <ul>  
       <li class="about-me">
         <div>
-          <p> Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. </p>
+          <p>Hi im Nils</p>
         </div>
       </li>
 
@@ -30,6 +30,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           <a href="https://summer.hackclub.com" target="_blank" alt="Summer of Making" title="Summer of Making">
             <img src="${SoM_logo}">
           </a>
+          <p>Summer of Making was a Hackathon where I reached place 217 out of 2049 participants (Top 10,6%). All in all I spent 132 Hours of making projects.</p>
         </div>
       </li>
 
