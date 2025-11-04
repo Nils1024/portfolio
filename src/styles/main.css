@@ -94,7 +94,7 @@ body, html {
 }
 
 .project-count {
-  @apply flex items-center justify-center;
+  @apply flex items-center justify-center bg-linear-to-l from-blue-900 via-green-900 to-sky-400 text-transparent bg-clip-text;
 }
 
 .project-count p:first-child {
