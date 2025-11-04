@@ -1,8 +1,6 @@
 @import "tailwindcss";
 
 :root {
-  @apply bg-zinc-900;
-
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -20,8 +18,11 @@ body, html {
   @apply h-full lg:overflow-hidden;
 }
 
+#vantaBg {
+}
+
 #app {
-  @apply min-h-screen flex items-center justify-center;
+  @apply min-h-screen flex items-center justify-center z-2;
 }
 
 .about-me, .events, .skills, .contact, .projects, .project-count {

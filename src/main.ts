@@ -1,5 +1,5 @@
-import "./main.css"
-import "./projects.css"
+import "./styles/main.css"
+import "./styles/projects.css"
 
 // Skills images
 import java_logo from "/java-logo.svg?raw"
