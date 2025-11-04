@@ -36,6 +36,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <li class="project-count">
         <div>
           <p>6+</p>
+          <p>Projects</p>
         </div>
       </li>
 

@@ -93,7 +93,11 @@ body, html {
 }
 
 .project-count {
-  @apply flex items-center justify-center text-6xl;
+  @apply flex items-center justify-center;
+}
+
+.project-count p:first-child {
+  @apply text-6xl p-2;
 }
 
 .projects {
