@@ -78,11 +78,15 @@ body, html {
 }
 
 .skills div {
-  @apply flex gap-4 duration-200;
+  @apply p-4;
+}
+
+.skills-symbols {
+  @apply flex gap-4 justify-center;
 }
 
 .skills div svg {
-  @apply w-10 h-auto;
+  @apply w-10 h-auto duration-200;
 }
 
 .skills div svg:hover {

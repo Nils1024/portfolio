@@ -111,15 +111,19 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
       <li class="skills">
         <div>
-          <a href="https://www.java.com" target="_blank">
-            ${java_logo}
-          </a>
-          <a href="https://www.c-language.org" target="_blank">
-            ${c_logo}
-          </a>
-          <a href="https://git-scm.com" target="_blank">
-            ${git_logo}
-          </a>
+          <p>Skills</p>
+
+          <div class="skills-symbols">
+            <a href="https://www.java.com" target="_blank">
+              ${java_logo}
+            </a>
+            <a href="https://www.c-language.org" target="_blank">
+              ${c_logo}
+            </a>
+            <a href="https://git-scm.com" target="_blank">
+              ${git_logo}
+            </a>
+          </div>
         </div>
       </li>
     </ul>
