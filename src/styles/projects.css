@@ -1,10 +1,7 @@
 @import "tailwindcss";
 
 .project-card {
-  @apply bg-neutral-800 border rounded-2xl duration-500;
-
-  margin: 10px;
-  padding: 20px;
+  @apply bg-neutral-800 border rounded-2xl duration-500 m-2.5 p-5;
 }
 
 .project-card:nth-child(1) {
@@ -24,8 +21,7 @@
 }
 
 .project-card:hover {
-  @apply scale-[1.12] translate-y-[-5px] z-10;
-  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.6);
+  @apply scale-[1.12] translate-y-[-5px] z-10 shadow-[0_15px_50px_rgba(0,0,0,0.6)];
 }
 
 .project-card .project-card-label {
