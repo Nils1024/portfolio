@@ -39,7 +39,7 @@
 }
 
 .project-card-links svg {
-  @apply w-8 h-auto fill-amber-50 duration-200;
+  @apply w-8 h-auto fill-neutral-50 duration-200;
 }
 
 .project-card-links svg:hover {
