@@ -18,15 +18,11 @@ body, html {
   @apply h-full lg:overflow-hidden;
 }
 
-#vantaBg {
-}
-
 #app {
   @apply min-h-screen flex items-center justify-center z-2;
 }
 
 .about-me, .events, .skills, .contact, .projects, .project-count {
-  background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.37);
@@ -62,7 +58,7 @@ body, html {
 }
 
 .contact div {
-  @apply duration-200 p-4;
+  @apply p-4;
 }
 
 .contact-links {
@@ -70,11 +66,11 @@ body, html {
 }
 
 .contact div svg {
-  @apply fill-neutral-900 w-10 h-auto;
+  @apply fill-neutral-50 w-10 h-auto duration-200;
 }
 
 .contact div svg:hover {
-  @apply scale-105;
+  @apply scale-105 fill-blue-400;
 }
 
 .skills {
