@@ -26,7 +26,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       </li>
 
       <li class="events">
-        <div>
+        <div class="event">
           <a href="https://summer.hackclub.com" target="_blank" alt="Summer of Making" title="Summer of Making">
             <img src="${SoM_logo}">
           </a>
@@ -34,9 +34,16 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </div>
       </li>
 
+      <li class="years-of-experience">
+        <div>
+          <p>3+</p>
+          <p>YOE</p>
+        </div>
+      </li>
+
       <li class="project-count">
         <div>
-          <p>6+</p>
+          <p>12+</p>
           <p>Projects</p>
         </div>
       </li>

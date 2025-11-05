@@ -22,7 +22,7 @@ body, html {
   @apply min-h-screen flex items-center justify-center z-2;
 }
 
-.about-me, .events, .skills, .contact, .projects, .project-count {
+.about-me, .events, .skills, .contact, .projects, .project-count, .years-of-experience {
   border-radius: 20px;
   backdrop-filter: blur(10px);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.37);
@@ -46,15 +46,19 @@ body, html {
 }
 
 .events {
-  @apply col-span-1 row-span-1 md:row-span-2 lg:row-span-4;
+  @apply col-span-2 row-span-1 overflow-y-auto;
 }
 
 .events div {
-  @apply duration-300;
+  @apply duration-300 flex;
 }
 
 .events div:hover {
   @apply scale-105;
+}
+
+.events div img {
+  @apply w-3xl;
 }
 
 .contact div {
@@ -93,16 +97,16 @@ body, html {
   @apply scale-105;
 }
 
-.project-count {
-  @apply flex items-center justify-center bg-linear-to-l from-blue-900 via-green-900 to-sky-400 text-transparent bg-clip-text;
+.project-count, .years-of-experience {
+  @apply flex items-center justify-center bg-linear-to-l from-sky-300 via-teal-200 to-lime-200 text-transparent bg-clip-text;
 }
 
-.project-count p:first-child {
+.project-count p:first-child, .years-of-experience p:first-child {
   @apply text-6xl p-2;
 }
 
 .projects {
-  @apply col-span-1 row-span-1 md:row-span-2 lg:row-span-3 overflow-y-auto;
+  @apply col-span-2 row-span-2 overflow-y-auto overflow-x-hidden;
 }
 
 .projects::-webkit-scrollbar {
