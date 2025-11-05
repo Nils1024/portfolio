@@ -5,6 +5,7 @@ import "./styles/projects.css"
 import java_logo from "/java-logo.svg?raw"
 import c_logo from "/C-logo.svg?raw"
 import git_logo from "/git-logo.svg?raw"
+import mysql_logo from "/MySQL-logo.svg?raw"
 
 // Events images
 import SoM_logo from "/SoM-logo.png"
@@ -126,6 +127,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             </a>
             <a href="https://www.c-language.org" target="_blank">
               ${c_logo}
+            </a>
+            <a href="https://www.mysql.com" target="_blank">
+              ${mysql_logo}
             </a>
             <a href="https://git-scm.com" target="_blank">
               ${git_logo}
