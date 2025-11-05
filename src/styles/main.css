@@ -20,6 +20,15 @@ body, html {
 
 #app {
   @apply min-h-screen flex items-center justify-center z-2;
+
+  opacity: 0;
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
 }
 
 .about-me, .events, .skills, .contact, .projects, .project-count, .years-of-experience {
