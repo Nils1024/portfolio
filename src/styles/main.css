@@ -99,7 +99,7 @@ body, html {
 }
 
 .skills div svg {
-  @apply w-10 h-auto duration-200;
+  @apply w-auto h-10 duration-200;
 }
 
 .skills div svg:hover {
