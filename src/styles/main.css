@@ -54,75 +54,12 @@ body, html {
   @apply col-span-1 row-span-1 sm:col-span-2 md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-3;
 }
 
-.events {
-  @apply col-span-2 row-span-1 overflow-y-auto;
+.project-count,
+.years-of-experience {
+  @apply flex items-center justify-center bg-linear-to-l from-sky-300 via-teal-200 to-lime-200 bg-clip-text text-transparent cursor-default;
 }
 
-.events div {
-  @apply duration-300 flex;
-}
-
-.events div:hover {
-  @apply scale-105;
-}
-
-.events div img {
-  @apply w-3xl;
-}
-
-.contact div {
-  @apply p-4;
-}
-
-.contact-links {
-  @apply flex gap-4 justify-center;
-}
-
-.contact div svg {
-  @apply fill-neutral-50 w-10 h-auto duration-200;
-}
-
-.contact div svg:hover {
-  @apply scale-105 fill-blue-400;
-}
-
-.skills {
-  @apply col-span-1 sm:col-span-2 md:col-span-2;
-}
-
-.skills div {
-  @apply p-4;
-}
-
-.skills-symbols {
-  @apply flex gap-4 justify-center;
-}
-
-.skills div svg {
-  @apply w-auto h-10 duration-200;
-}
-
-.skills div svg:hover {
-  @apply scale-105;
-}
-
-.project-count, .years-of-experience {
-  @apply flex items-center justify-center bg-linear-to-l from-sky-300 via-teal-200 to-lime-200 text-transparent bg-clip-text;
-}
-
-.project-count p:first-child, .years-of-experience p:first-child {
+.project-count p:first-child,
+.years-of-experience p:first-child {
   @apply text-6xl p-2;
-}
-
-.projects {
-  @apply col-span-2 row-span-2 overflow-y-auto overflow-x-hidden;
-}
-
-.projects::-webkit-scrollbar {
-  width: 6px;
-}
-
-.projects::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.2);
-  border-radius: 2px;
 }

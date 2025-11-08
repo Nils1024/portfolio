@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+.skills {
+  @apply col-span-1 sm:col-span-2 md:col-span-2 grid place-items-center text-center;
+}
+
+.skills p {
+  @apply cursor-default p-1;
+}
+
+.skills-symbols {
+  @apply flex gap-4 justify-center;
+}
+
+.skills-symbols svg {
+  @apply w-auto h-10 duration-200 hover:scale-105;
+}

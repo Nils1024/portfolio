@@ -1,23 +1,22 @@
 @import "tailwindcss";
 
+.projects {
+  @apply col-span-2 row-span-2 overflow-y-auto overflow-x-hidden;
+}
+
+.projects::-webkit-scrollbar {
+  width: 6px;
+}
+
+.projects::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 2px;
+}
+
+/* --card-color is a variable which is defined in the div-tag of every project-card */
+
 .project-card {
-  @apply bg-neutral-800 border rounded-2xl duration-500 m-2.5 p-5;
-}
-
-.project-card:nth-child(1) {
-  @apply border-blue-400;
-}
-
-.project-card:nth-child(2) {
-  @apply border-orange-400;
-}
-
-.project-card:nth-child(3) {
-  @apply border-indigo-600;
-}
-
-.project-card:nth-child(4) {
-  @apply border-red-400;
+  @apply bg-neutral-800 border-(--card-color) border rounded-2xl duration-500 m-2.5 p-5;
 }
 
 .project-card:hover {
@@ -39,9 +38,5 @@
 }
 
 .project-card-links svg {
-  @apply w-8 h-auto fill-neutral-50 duration-200;
-}
-
-.project-card-links svg:hover {
-  @apply w-8 h-auto fill-blue-400;
+  @apply w-8 h-auto fill-neutral-50 duration-200 hover:fill-blue-400;
 }

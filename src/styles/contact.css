@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+.contact {
+  @apply grid place-items-center text-center;
+}
+
+.contact p {
+  @apply cursor-default p-1;
+}
+
+.contact-links {
+  @apply flex gap-4 justify-center;
+}
+
+.contact-links svg {
+  @apply fill-neutral-50 w-10 h-auto duration-200
+    hover:scale-105 hover:fill-blue-400;
+}
