@@ -1,5 +1,8 @@
 import "./styles/main.css"
 import "./styles/projects.css"
+import "./styles/events.css"
+import "./styles/skills.css"
+import "./styles/contact.css"
 
 // Skills images
 import java_logo from "/java-logo.svg?raw"
@@ -22,7 +25,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <ul>  
       <li class="about-me">
         <div>
-          <p>Hi im Nils</p>
+          <p>
+            Hi im Nils!
+            <br>
+            I'm a software developer from nearby Cologne, Germany.
+          </p>
         </div>
       </li>
 
@@ -49,7 +56,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
         </div>
       </li>
 
-      <li class="projects">
+      <li class="projects" style="--card-color: var(--color-blue-400)">
         <div>
           <div class="project-card">
             <div class="project-card-label">
@@ -65,12 +72,12 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             </div>
           </div>
 
-          <div class="project-card">
+          <div class="project-card" style="--card-color: var(--color-orange-400)">
             <div class="project-card-label">
               <p>TrustScanner</p>
             </div>
             <div class="project-card-subtitle">
-              <p>Userscript</p>
+              <p>A userscript that checks websites for dangerous categories (malware, phishing) and displays a warning banner if a threat is detected.</p>
             </div>
             <div class="project-card-links">
               <a href="https://github.com/Nils1024/TrustScanner" target="_blank" alt="GitHub">
@@ -82,7 +89,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             </div>
           </div>
 
-          <div class="project-card">
+          <div class="project-card" style="--card-color: var(--color-indigo-600)">
             <div class="project-card-label">
               <p>Title</p>
             </div>
@@ -91,7 +98,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             </div>
           </div>
 
-          <div class="project-card">
+          <div class="project-card" style="--card-color: var(--color-red-400)">
             <div class="project-card-label">
               <p>Title</p>
             </div>
