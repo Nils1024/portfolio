@@ -64,7 +64,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
       <li class="events">
         <div class="event">
-          <a href="https://summer.hackclub.com" target="_blank" alt="Summer of Making" title="Summer of Making">
+          <a href="https://summer.hackclub.com" target="_blank" rel="noopener noreferrer" alt="Summer of Making" title="Summer of Making">
             <img src="${SoM_logo}">
           </a>
           <p>Summer of Making was an international hackathon where I ranked 121st out of 2,165 participants (<b>top 6%</b>).</p>
@@ -97,7 +97,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               <p>A tool for testing network communication</p>
             </div>
             <div class="project-card-links">
-              <a href="https://github.com/Nils1024/ConnTest" target="_blank" alt="GitHub">
+              <a href="https://github.com/Nils1024/ConnTest" target="_blank" rel="noopener noreferrer" alt="GitHub">
                 ${github_logo}
               </a>
             </div>
@@ -111,10 +111,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               <p>A userscript that checks websites for dangerous categories (malware, phishing) and displays a warning banner if a threat is detected.</p>
             </div>
             <div class="project-card-links">
-              <a href="https://github.com/Nils1024/TrustScanner" target="_blank" alt="GitHub">
+              <a href="https://github.com/Nils1024/TrustScanner" target="_blank" rel="noopener noreferrer" alt="GitHub">
                 ${github_logo}
               </a>
-              <a href="https://github.com/Nils1024/TrustScanner" target="_blank" alt="Download">
+              <a href="https://github.com/Nils1024/TrustScanner" target="_blank" rel="noopener noreferrer" alt="Download">
                 ${website_symbol}
               </a>
             </div>
@@ -128,7 +128,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               <p>A Windows 10 Explorer clone for Windows XP</p>
             </div>
             <div class="project-card-links">
-              <a href="https://github.com/Nils1024/explorer" target="_blank" alt="GitHub">
+              <a href="https://github.com/Nils1024/explorer" target="_blank" rel="noopener noreferrer" alt="GitHub">
                 ${github_logo}
               </a>
             </div>
@@ -142,10 +142,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               <p>A web-based DJ controller with basic functionality, built with React and Vite.</p>
             </div>
             <div class="project-card-links">
-              <a href="https://github.com/Nils1024/dj_controller" target="_blank" alt="GitHub">
+              <a href="https://github.com/Nils1024/dj_controller" target="_blank" rel="noopener noreferrer" alt="GitHub">
                 ${github_logo}
               </a>
-              <a href="https://djcontroller.vercel.app" target="_blank" alt="Download">
+              <a href="https://djcontroller.vercel.app" target="_blank" rel="noopener noreferrer" alt="Download">
                 ${website_symbol}
               </a>
             </div>
@@ -159,10 +159,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               <p>Scene (No. 66) for the Summer of Making Grand Survey Expedition.</p>
             </div>
             <div class="project-card-links">
-              <a href="https://github.com/Nils1024/Spooky-Tomb" target="_blank" alt="GitHub">
+              <a href="https://github.com/Nils1024/Spooky-Tomb" target="_blank" rel="noopener noreferrer" alt="GitHub">
                 ${github_logo}
               </a>
-              <a href="https://nilsb.tech/Spooky-Tomb/" target="_blank" alt="Download">
+              <a href="https://nilsb.tech/Spooky-Tomb/" target="_blank" rel="noopener noreferrer" alt="Download">
                 ${website_symbol}
               </a>
             </div>
@@ -175,7 +175,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           <p>Connect with me</p>
 
           <div class="contact-links">
-            <a href="https://github.com/Nils1024" target="_blank" alt="GitHub">
+            <a href="https://github.com/Nils1024" target="_blank" alt="GitHub" rel="noopener noreferrer">
               ${github_logo}
             </a>
             <a href="mailto:test@email.de" alt="E-Mail">
@@ -190,16 +190,16 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           <p>Skills</p>
 
           <div class="skills-symbols">
-            <a href="https://www.java.com" target="_blank">
+            <a href="https://www.java.com" target="_blank" rel="noopener noreferrer">
               ${java_logo}
             </a>
-            <a href="https://www.c-language.org" target="_blank">
+            <a href="https://www.c-language.org" target="_blank" rel="noopener noreferrer">
               ${c_logo}
             </a>
-            <a href="https://sqlite.org" target="_blank">
+            <a href="https://sqlite.org" target="_blank" rel="noopener noreferrer">
               ${sqlite_logo}
             </a>
-            <a href="https://git-scm.com" target="_blank">
+            <a href="https://git-scm.com" target="_blank" rel="noopener noreferrer">
               ${git_logo}
             </a>
           </div>
