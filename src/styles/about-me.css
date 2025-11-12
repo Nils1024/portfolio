@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+.about-me {
+  @apply col-span-1 row-span-1 sm:col-span-2 md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-3;
+}
+
+.about-me .heading {
+  @apply text-3xl p-5;
+}
+
+.about-me .misc {
+  @apply flex flex-wrap justify-between mt-10;
+}
+
+.about-me .languages,
+.about-me .hobbys {
+  @apply flex-1 space-y-3;
+}
+
+.about-me .languages p,
+.about-me .hobbys p {
+  @apply text-3xl;
+}
+
+.about-me .languages ul,
+.about-me .hobbys ul {
+  @apply flex flex-col gap-1;
+}
+
+.about-me .gloss {
+  @apply text-xs absolute bottom-0 left-0 p-2;
+}

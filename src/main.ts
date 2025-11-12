@@ -1,4 +1,5 @@
 import "./styles/main.css"
+import "./styles/about-me.css"
 import "./styles/projects.css"
 import "./styles/events.css"
 import "./styles/skills.css"
@@ -25,11 +26,39 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
     <ul>  
       <li class="about-me">
         <div>
-          <p>
-            Hi im Nils!
-            <br>
-            I'm a software developer from nearby Cologne, Germany.
+          <p class="heading">
+            &lt;/Hi, i'm Nils&gt;
           </p>
+          <p>
+            I'm a trainee software developer from nearby Cologne, Germany.
+          </p>
+          <br>
+          <p>
+            I started programming in my spare time during secondary school and since then I developed an strong passion. I also love to tinker with new technologies and hardware and see what new things I can create.
+          </p>
+
+          <div class="misc">
+            <div class="languages">
+              <p>Languages</p>
+              <ul>
+                <li>🇩🇪 German – Native</li>
+                <li>🇬🇧 English – B1/B2*</li>
+              </ul>
+            </div>
+
+            <div class="hobbys">
+              <p>Hobbys</p>
+              <ul>
+                <li>💻 Programming</li>
+                <li>🎹 Piano</li>
+                <li>🚶‍➡️ Hiking</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gloss">
+            <p>* Common European Framework of Reference for Languages (CEFR)</p>
+          </div>
         </div>
       </li>
 
@@ -57,7 +86,9 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       </li>
 
       <li class="projects" style="--card-color: var(--color-blue-400)">
-        <div>
+        <p>Projects</p>
+      
+        <div class="projects-area">
           <div class="project-card">
             <div class="project-card-label">
               <p>ConnTest</p>
@@ -91,19 +122,49 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
           <div class="project-card" style="--card-color: var(--color-indigo-600)">
             <div class="project-card-label">
-              <p>Title</p>
+              <p>Explorer</p>
             </div>
             <div class="project-card-subtitle">
-              <p>Text</p>
+              <p>A Windows 10 Explorer clone for Windows XP</p>
+            </div>
+            <div class="project-card-links">
+              <a href="https://github.com/Nils1024/explorer" target="_blank" alt="GitHub">
+                ${github_logo}
+              </a>
             </div>
           </div>
 
           <div class="project-card" style="--card-color: var(--color-red-400)">
             <div class="project-card-label">
-              <p>Title</p>
+              <p>DJ Controller</p>
             </div>
             <div class="project-card-subtitle">
-              <p>Text</p>
+              <p>A web-based DJ controller with basic functionality, built with React and Vite.</p>
+            </div>
+            <div class="project-card-links">
+              <a href="https://github.com/Nils1024/dj_controller" target="_blank" alt="GitHub">
+                ${github_logo}
+              </a>
+              <a href="https://djcontroller.vercel.app" target="_blank" alt="Download">
+                ${website_symbol}
+              </a>
+            </div>
+          </div>
+
+          <div class="project-card" style="--card-color: var(--color-green-700)">
+            <div class="project-card-label">
+              <p>Spooky-Tomb</p>
+            </div>
+            <div class="project-card-subtitle">
+              <p>Scene (No. 66) for the Summer of Making Grand Survey Expedition.</p>
+            </div>
+            <div class="project-card-links">
+              <a href="https://github.com/Nils1024/Spooky-Tomb" target="_blank" alt="GitHub">
+                ${github_logo}
+              </a>
+              <a href="https://nilsb.tech/Spooky-Tomb/" target="_blank" alt="Download">
+                ${website_symbol}
+              </a>
             </div>
           </div>
         </div>

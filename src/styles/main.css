@@ -50,10 +50,6 @@ body, html {
   @apply w-11/12 h-auto grid gap-4 mx-auto grid-cols-1 grid-rows-none sm:grid-cols-2 sm:grid-rows-3 md:grid-cols-3 md:grid-rows-3 lg:grid-cols-5 lg:grid-rows-4 lg:h-[90vh];
 }
 
-.about-me {
-  @apply col-span-1 row-span-1 sm:col-span-2 md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-3;
-}
-
 .project-count,
 .years-of-experience {
   @apply flex items-center justify-center bg-linear-to-l from-sky-300 via-teal-200 to-lime-200 bg-clip-text text-transparent cursor-default;
