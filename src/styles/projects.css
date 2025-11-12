@@ -4,11 +4,15 @@
   @apply col-span-2 row-span-2 overflow-y-auto overflow-x-hidden;
 }
 
-.projects::-webkit-scrollbar {
+.projects > p {
+  @apply text-3xl p-1 cursor-default;
+}
+
+.projects-area::-webkit-scrollbar {
   width: 6px;
 }
 
-.projects::-webkit-scrollbar-thumb {
+.projects-area::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0.2);
   border-radius: 2px;
 }
@@ -24,11 +28,15 @@
 }
 
 .project-card .project-card-label {
+  @apply cursor-default;
+
   transform: scale(1.1);
   letter-spacing: 3px;
 }
 
 .project-card .project-card-subtitle {
+  @apply cursor-default;
+
   transform: translateY(3px);
   opacity: 1;
 }
