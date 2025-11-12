@@ -13,17 +13,17 @@
 }
 
 .about-me .languages,
-.about-me .hobbys {
+.about-me .hobbies {
   @apply flex-1 space-y-3;
 }
 
 .about-me .languages p,
-.about-me .hobbys p {
+.about-me .hobbies p {
   @apply text-3xl;
 }
 
 .about-me .languages ul,
-.about-me .hobbys ul {
+.about-me .hobbies ul {
   @apply flex flex-col gap-1;
 }
 

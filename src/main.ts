@@ -27,14 +27,15 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <li class="about-me">
         <div>
           <p class="heading">
-            &lt;/Hi, i'm Nils&gt;
+            &lt;/Hi, I'm Nils&gt;
           </p>
           <p>
-            I'm a trainee software developer from nearby Cologne, Germany.
+            I'm a trainee software engineer from near Cologne, Germany.
           </p>
           <br>
           <p>
-            I started programming in my spare time during secondary school and since then I developed an strong passion. I also love to tinker with new technologies and hardware and see what new things I can create.
+            I started programming in my spare time during secondary school and have since developed a strong passion for it. 
+            Furthermore, I enjoy experimenting with new technologies and hardware to see what creative ideas I can bring to life.
           </p>
 
           <div class="misc">
@@ -46,8 +47,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               </ul>
             </div>
 
-            <div class="hobbys">
-              <p>Hobbys</p>
+            <div class="hobbies">
+              <p>Hobbies</p>
               <ul>
                 <li>💻 Programming</li>
                 <li>🎹 Piano</li>
