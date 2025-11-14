@@ -1,7 +1,9 @@
 @import "tailwindcss";
 
+@apply col-span-1 sm:col-span-2 md:col-span-3 grid place-items-center text-center;
+
 .about-me {
-  @apply col-span-1 row-span-1 sm:col-span-2 md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-3;
+  @apply col-span-2 sm:col-span-2 sm:row-span-2 md:col-span-3 md:row-span-2 lg:col-span-3 lg:row-span-3;
 }
 
 .about-me .heading {
