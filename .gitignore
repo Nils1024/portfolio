@@ -101,3 +101,5 @@ dist/
 .vscode/sftp.json
 .vscode/tags
 .devcontainer/
+
+.DS_Store
