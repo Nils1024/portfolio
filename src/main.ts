@@ -43,16 +43,16 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               <p>Languages</p>
               <ul>
                 <li>🇩🇪 German – Native</li>
-                <li>🇬🇧 English – B1/B2*</li>
+                <li>🇬🇧 English – B2*</li>
               </ul>
             </div>
 
             <div class="hobbies">
               <p>Hobbies</p>
               <ul>
-                <li>💻 Programming</li>
                 <li>🎹 Piano</li>
                 <li>🚶‍➡️ Hiking</li>
+                <li>💻 Strategy & Logic Games</li>
               </ul>
             </div>
           </div>
