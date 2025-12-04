@@ -10,9 +10,9 @@
   },
   "devDependencies": {
     "@types/three": "^0.181.0",
-    "autoprefixer": "^10.4.21",
+    "autoprefixer": "^10.4.22",
     "postcss": "^8.5.6",
-    "tailwindcss": "^4.1.16",
+    "tailwindcss": "^4.1.17",
     "typescript": "~5.9.3",
     "vite": "npm:rolldown-vite@7.1.14"
   },
@@ -20,7 +20,7 @@
     "vite": "npm:rolldown-vite@7.1.14"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.16",
-    "three": "^0.181.0"
+    "@tailwindcss/vite": "^4.1.17",
+    "three": "^0.181.2"
   }
 }
