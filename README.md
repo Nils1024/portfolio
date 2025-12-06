@@ -1,5 +1,5 @@
 # portfolio
-Link: https://nilsb.tech/
+Link: [https://nilsb.tech/](https://nilsb.tech/)
 
 <br>
-![image info](./.github/example.png)
+![example](./.github/example.png)
