@@ -179,7 +179,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <a href="https://github.com/Nils1024" target="_blank" alt="GitHub" rel="noopener noreferrer">
               ${github_logo}
             </a>
-            <a href="mailto:test@email.de" alt="E-Mail">
+            <a href="https://form.typeform.com/to/cHvoXd5Q" target="_blank" alt="E-Mail">
               ${mail_symbol}
             </a>
           </div>
