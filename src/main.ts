@@ -13,6 +13,7 @@ import sqlite_logo from "/SQLite-logo.svg?raw"
 
 // Events images
 import SoM_logo from "/SoM-logo.png"
+import midnight_logo from "/Midnight-logo.svg"
 
 // Contact images
 import github_logo from "/github-logo.svg?raw"
@@ -70,6 +71,13 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           </a>
           <p>Summer of Making was an international hackathon where I ranked 121st out of 2,165 participants (<b>top 6%</b>).</p>
         </div>
+        
+        <div class="event">
+          <a href="https://midnight.hackclub.com" target="_blank" rel="noopener noreferrer" alt="Midnight" title="Midnight">
+            <img src="${midnight_logo}">
+          </a>
+          <p>Midnight was an in-person murder-mystery hackathon in Vienna (January 2026), where I collaborated with people from 32 countries to solve the case by building technical projects.</p>
+        </div>
       </li>
 
       <li class="years-of-experience">
@@ -81,7 +89,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
       <li class="project-count">
         <div>
-          <p>12+</p>
+          <p>20+</p>
           <p>Projects</p>
         </div>
       </li>
@@ -106,16 +114,33 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 
           <div class="project-card" style="--card-color: var(--color-orange-400)">
             <div class="project-card-label">
-              <p>TrustScanner</p>
+              <p>Crossword Murder Mystery</p>
             </div>
             <div class="project-card-subtitle">
-              <p>A userscript that checks websites for dangerous categories (malware, phishing) and displays a warning banner if a threat is detected.</p>
+              <p>As a part of the Midnight hackathon, my team and I created a crossword game where you have to find all clues to solve the crossword in a house</p>
             </div>
             <div class="project-card-links">
-              <a href="https://github.com/Nils1024/TrustScanner" target="_blank" rel="noopener noreferrer" alt="GitHub">
+              <a href="https://github.com/LilyEllaC/crosswordMurderMystery" target="_blank" rel="noopener noreferrer" alt="GitHub">
                 ${github_logo}
               </a>
-              <a href="https://github.com/Nils1024/TrustScanner" target="_blank" rel="noopener noreferrer" alt="Download">
+              <a href="https://lilyec.itch.io/murder-mystery-crossword" target="_blank" rel="noopener noreferrer" alt="Itch.io">
+                ${website_symbol}
+              </a>
+            </div>
+          </div>
+          
+          <div class="project-card" style="--card-color: var(--color-pink-400)">
+            <div class="project-card-label">
+              <p>Detective Run</p>
+            </div>
+            <div class="project-card-subtitle">
+              <p>As a part of the Midnight hackathon, my team and I recreated the Dinosaur Game with the addition that you sometimes get asked over how many obstacles you have jumped.</p>
+            </div>
+            <div class="project-card-links">
+              <a href="https://github.com/LilyEllaC/DetectiveRun" target="_blank" rel="noopener noreferrer" alt="GitHub">
+                ${github_logo}
+              </a>
+              <a href="https://lilyec.itch.io/detective-run" target="_blank" rel="noopener noreferrer" alt="Itch.io">
                 ${website_symbol}
               </a>
             </div>

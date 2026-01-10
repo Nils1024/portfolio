@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .events {
-  @apply col-span-2 row-span-1 overflow-y-auto;
+  @apply col-span-2 row-span-1 overflow-y-auto flex flex-col gap-8;
 }
 
 .events::-webkit-scrollbar {
@@ -14,7 +14,7 @@
 }
 
 .events div {
-  @apply duration-300 flex cursor-default hover:scale-105;
+  @apply duration-300 flex items-center justify-center cursor-default hover:scale-105;
 }
 
 .events div img {
