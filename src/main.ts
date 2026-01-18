@@ -9,7 +9,7 @@ import "./styles/contact.css"
 import java_logo from "/java-logo.svg?raw"
 import c_logo from "/C-logo.svg?raw"
 import git_logo from "/git-logo.svg?raw"
-import sqlite_logo from "/SQLite-logo.svg?raw"
+import postgresql_logo from "/Postgresql-logo.svg?raw"
 
 // Events images
 import SoM_logo from "/SoM-logo.png"
@@ -31,12 +31,16 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             &lt;/Hi, I'm Nils&gt;
           </p>
           <p>
-            I'm a trainee software engineer from near Cologne, Germany.
+            I’m a Software Engineer Trainee based near Cologne, Germany.
           </p>
           <br>
           <p>
-            I started programming in my spare time during secondary school and have since developed a strong passion for it. 
-            Furthermore, I enjoy experimenting with new technologies and hardware to see what creative ideas I can bring to life.
+            While the stats show what I've created, my focus is on how I build it.
+            <br>
+            I use code to try something new I have never done before.
+            <br>
+            For me, it is not just about memorizing syntax.
+            It is about understanding the logic and reasoning to engineer better solutions with every project.
           </p>
 
           <div class="misc">
@@ -44,7 +48,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
               <p>Languages</p>
               <ul>
                 <li>🇩🇪 German – Native</li>
-                <li>🇬🇧 English – B2*</li>
+                <li>🇬🇧 English – B1*</li>
               </ul>
             </div>
 
@@ -222,8 +226,8 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
             <a href="https://www.c-language.org" target="_blank" rel="noopener noreferrer">
               ${c_logo}
             </a>
-            <a href="https://sqlite.org" target="_blank" rel="noopener noreferrer">
-              ${sqlite_logo}
+            <a href="https://www.postgresql.org" target="_blank" rel="noopener noreferrer">
+              ${postgresql_logo}
             </a>
             <a href="https://git-scm.com" target="_blank" rel="noopener noreferrer">
               ${git_logo}
