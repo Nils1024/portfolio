@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 .skills {
-  @apply col-span-1 sm:col-span-2 md:col-span-2 grid place-items-center text-center;
+  @apply col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-2 grid place-items-center text-center;
 }
 
 .skills p {
