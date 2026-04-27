@@ -35,12 +35,11 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
           </p>
           <br>
           <p>
-            While the stats show what I've created, my focus is on how I build it.
+            During school, I independently learned programming, developed 
+            a software tool for the school’s IT administrator, and provided technical support/advice.
             <br>
-            I use code to try something new I have never done before.
-            <br>
-            For me, it is not just about memorizing syntax.
-            It is about understanding the logic and reasoning to engineer better solutions with every project.
+            I am currently training as a software engineer, focusing on 
+            practical development experience.
           </p>
 
           <div class="misc">
@@ -58,6 +57,7 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
                 <li>🎹 Piano</li>
                 <li>🚶‍➡️ Hiking</li>
                 <li>💻 Strategy & Logic Games</li>
+                <li>📷 Photography</li>
               </ul>
             </div>
           </div>
